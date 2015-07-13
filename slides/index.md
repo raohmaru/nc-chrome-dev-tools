@@ -1,10 +1,9 @@
 
 # Chrome Dev Tools
 
-From the terminal, pop in:
+Tips for developers on the use of Chrome dev tools.
 
-  ```yo reveal:slide "Slide Title"```
+<br />
 
-Available options:
-
- ```--markdown --attributes --notes```
+View this presentation at  
+http://raohmaru.github.io/nc-chrome-dev-tools/

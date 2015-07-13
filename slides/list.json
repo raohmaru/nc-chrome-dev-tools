@@ -1,1 +1,10 @@
-["index.md"]
+[
+    "index.md",
+    "0-intro.html",
+    "1-shortcuts.html",
+    [
+        "2-elements-panel.html",
+        "2-1-elements-panel.html"
+    ],
+    "3-dom-breakpoints.html"
+]
