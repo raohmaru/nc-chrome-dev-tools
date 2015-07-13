@@ -1,0 +1,11 @@
+{
+  "generator-reveal": {
+    "presentationTitle": "Chrome Dev Tools",
+    "packageVersion": "1.0.0",
+    "revealTheme": "night",
+    "useSass": false,
+    "deployToGithubPages": true,
+    "githubUsername": "raohmaru",
+    "githubRepository": "nc-chrome-dev-tools"
+  }
+}
