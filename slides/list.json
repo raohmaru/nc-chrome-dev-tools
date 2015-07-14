@@ -6,5 +6,11 @@
         "2-elements-panel.html",
         "2-1-elements-panel.html"
     ],
-    "3-dom-breakpoints.html"
+    "3-sources-panel.html",
+    [
+        "3-1-breakpoints.html",
+        "3-2-dom-breakpoints.html",
+        "3-3-breakpoints-event-listeners.html"
+    ],
+    "4-console-panel.html"
 ]

@@ -1,3 +1,6 @@
+.speaker-controls-notes .value {
+	font-size: 1em;
+}
 .reveal .small {
 	font-size: 0.6em;
 	line-height: 1.2em;
@@ -20,6 +23,68 @@
 	padding: 0.1em 0.4em;
 	font-size: 0.7em;
 }
+.reveal {
+	-webkit-transition: background .3s;
+	   -moz-transition: background .3s;
+			transition: background .3s;
+}
+
 .c-symbol {
 	color: #E4A551;
 }
+.reveal pre code.code-bw {
+	word-wrap: break-word;
+}
+.btn {
+	padding: 0.3em 0.6em;
+	font: 0.7em 'Open Sans', sans-serif;
+	color: #000;
+	background-color: #E4A551;
+	border: 0;
+	cursor: pointer;
+	-webkit-transition: background .3s;
+	   -moz-transition: background .3s;
+			transition: background .3s;
+}
+.btn:hover {	
+	background-color: #fbefd7;
+}
+	.btn-big {
+		font-size: 1.5em;
+	}
+.textfield {
+	padding: 0.3em 0.6em;
+	font: 0.7em 'Open Sans', sans-serif;
+}
+
+.reveal .dombp-wrapper {
+	margin-top: 2em;
+	padding: 0 .5em;
+	border: 4px solid #666;
+	border-radius: 10px;
+	/* https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-around;
+	   -moz-justify-content: space-around;
+	    -ms-justify-content: space-around;
+			justify-content: space-around;
+}
+.reveal .dombp-wrapper.highligth {
+	border-color: #ef3f03;
+}
+	.reveal .dombp-col {
+		-webkit-flex-grow: 1;
+		   -moz-flex-grow: 1;
+		    -ms-flex-grow: 1;
+				flex-grow: 1;
+		margin: 0 .5em;
+	}
+		.dombp-col .btn {
+			display: block;
+			width: 100%;
+			margin: 1em 0;
+		}
