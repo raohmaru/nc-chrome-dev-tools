@@ -12,5 +12,7 @@
         "3-2-dom-breakpoints.html",
         "3-3-breakpoints-event-listeners.html"
     ],
-    "4-console-panel.html"
+	"4-console-panel.html",
+	"4-1-timing.html",
+    "questions.html"
 ]

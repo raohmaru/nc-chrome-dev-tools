@@ -32,9 +32,13 @@
 .c-symbol {
 	color: #E4A551;
 }
-.reveal pre code.code-bw {
-	word-wrap: break-word;
+.reveal pre code {
+	width: 70%;
+	margin: 0 auto;
 }
+	.reveal pre code.code-bw {
+		word-wrap: break-word;
+	}
 .btn {
 	padding: 0.3em 0.6em;
 	font: 0.7em 'Open Sans', sans-serif;

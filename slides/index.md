@@ -1,9 +1,10 @@
 
 # Chrome Dev Tools
 
-Tips for developers on the use of Chrome dev tools.
+Tips for developers on the use of Chrome dev tools  
+**Chapter I**
 
 <br />
 
-View this presentation at  
-http://raohmaru.github.io/nc-chrome-dev-tools/
+<p class="small">
+http://raohmaru.github.io/nc-chrome-dev-tools/</p>
