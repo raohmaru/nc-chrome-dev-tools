@@ -1,0 +1,33 @@
+<h3>Console Panel</h3>
+<h2>Timing &amp; Profiling</h2>
+
+<ul>
+	<li class="fragment">Measuring how long something takes</li>
+	<li class="fragment">Find memory leaks</li>
+</ul>
+
+<pre class="fragment">
+<code>console.profile("JS CPU");
+console.time("Array initialize");
+    var array= new Array(1000000);
+    for (var i = array.length - 1; i >= 0; i--) {
+        array[i] = new Object();
+    };
+console.timeEnd("Array initialize");
+console.profileEnd("JS CPU")
+</code>
+</pre>
+<div class="fragment">
+	<button type="button" class="btn" id="csltim-run">Run</button>
+	<button type="button" class="btn" id="csltim-profile">Profile</button>
+</div>
+
+<br>
+<p class="small">More info at<br>
+	<a href="http://www.smashingmagazine.com/2012/06/12/javascript-profiling-chrome-developer-tools/" target="_blank">smashingmagazine.com/2012/06/12/javascript-profiling-chrome-developer-tools/</a></p>
+
+
+<aside class="notes">
+    Record timeline<br>
+	Profile memory
+</aside>
